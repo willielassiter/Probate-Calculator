@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3612A185217082250017FFD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3612A184217082250017FFD7 /* AppDelegate.swift */; };
+		3612A187217082250017FFD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3612A186217082250017FFD7 /* ViewController.swift */; };
+		3612A18A217082250017FFD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3612A188217082250017FFD7 /* Main.storyboard */; };
+		3612A18C217082350017FFD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3612A18B217082350017FFD7 /* Assets.xcassets */; };
+		3612A18F217082360017FFD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3612A18D217082360017FFD7 /* LaunchScreen.storyboard */; };
+		3612A19A217082360017FFD7 /* Probate_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3612A199217082360017FFD7 /* Probate_CalculatorTests.swift */; };
+		3612A1A5217082360017FFD7 /* Probate_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3612A1A4217082360017FFD7 /* Probate_CalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3612A196217082360017FFD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3612A179217082250017FFD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3612A180217082250017FFD7;
+			remoteInfo = "Probate Calculator";
+		};
+		3612A1A1217082360017FFD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3612A179217082250017FFD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3612A180217082250017FFD7;
+			remoteInfo = "Probate Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3612A181217082250017FFD7 /* Probate Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Probate Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3612A184217082250017FFD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3612A186217082250017FFD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3612A189217082250017FFD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3612A18B217082350017FFD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3612A18E217082360017FFD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3612A190217082360017FFD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3612A195217082360017FFD7 /* Probate CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Probate CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3612A199217082360017FFD7 /* Probate_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Probate_CalculatorTests.swift; sourceTree = "<group>"; };
+		3612A19B217082360017FFD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3612A1A0217082360017FFD7 /* Probate CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Probate CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3612A1A4217082360017FFD7 /* Probate_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Probate_CalculatorUITests.swift; sourceTree = "<group>"; };
+		3612A1A6217082360017FFD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3612A17E217082250017FFD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3612A192217082360017FFD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3612A19D217082360017FFD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3612A178217082250017FFD7 = {
+			isa = PBXGroup;
+			children = (
+				3612A183217082250017FFD7 /* Probate Calculator */,
+				3612A198217082360017FFD7 /* Probate CalculatorTests */,
+				3612A1A3217082360017FFD7 /* Probate CalculatorUITests */,
+				3612A182217082250017FFD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3612A182217082250017FFD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3612A181217082250017FFD7 /* Probate Calculator.app */,
+				3612A195217082360017FFD7 /* Probate CalculatorTests.xctest */,
+				3612A1A0217082360017FFD7 /* Probate CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3612A183217082250017FFD7 /* Probate Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				3612A184217082250017FFD7 /* AppDelegate.swift */,
+				3612A186217082250017FFD7 /* ViewController.swift */,
+				3612A188217082250017FFD7 /* Main.storyboard */,
+				3612A18B217082350017FFD7 /* Assets.xcassets */,
+				3612A18D217082360017FFD7 /* LaunchScreen.storyboard */,
+				3612A190217082360017FFD7 /* Info.plist */,
+			);
+			path = "Probate Calculator";
+			sourceTree = "<group>";
+		};
+		3612A198217082360017FFD7 /* Probate CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3612A199217082360017FFD7 /* Probate_CalculatorTests.swift */,
+				3612A19B217082360017FFD7 /* Info.plist */,
+			);
+			path = "Probate CalculatorTests";
+			sourceTree = "<group>";
+		};
+		3612A1A3217082360017FFD7 /* Probate CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3612A1A4217082360017FFD7 /* Probate_CalculatorUITests.swift */,
+				3612A1A6217082360017FFD7 /* Info.plist */,
+			);
+			path = "Probate CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3612A180217082250017FFD7 /* Probate Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3612A1A9217082360017FFD7 /* Build configuration list for PBXNativeTarget "Probate Calculator" */;
+			buildPhases = (
+				3612A17D217082250017FFD7 /* Sources */,
+				3612A17E217082250017FFD7 /* Frameworks */,
+				3612A17F217082250017FFD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Probate Calculator";
+			productName = "Probate Calculator";
+			productReference = 3612A181217082250017FFD7 /* Probate Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3612A194217082360017FFD7 /* Probate CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3612A1AC217082360017FFD7 /* Build configuration list for PBXNativeTarget "Probate CalculatorTests" */;
+			buildPhases = (
+				3612A191217082360017FFD7 /* Sources */,
+				3612A192217082360017FFD7 /* Frameworks */,
+				3612A193217082360017FFD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3612A197217082360017FFD7 /* PBXTargetDependency */,
+			);
+			name = "Probate CalculatorTests";
+			productName = "Probate CalculatorTests";
+			productReference = 3612A195217082360017FFD7 /* Probate CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3612A19F217082360017FFD7 /* Probate CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3612A1AF217082360017FFD7 /* Build configuration list for PBXNativeTarget "Probate CalculatorUITests" */;
+			buildPhases = (
+				3612A19C217082360017FFD7 /* Sources */,
+				3612A19D217082360017FFD7 /* Frameworks */,
+				3612A19E217082360017FFD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3612A1A2217082360017FFD7 /* PBXTargetDependency */,
+			);
+			name = "Probate CalculatorUITests";
+			productName = "Probate CalculatorUITests";
+			productReference = 3612A1A0217082360017FFD7 /* Probate CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3612A179217082250017FFD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Willie Lassiter";
+				TargetAttributes = {
+					3612A180217082250017FFD7 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3612A194217082360017FFD7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3612A180217082250017FFD7;
+					};
+					3612A19F217082360017FFD7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3612A180217082250017FFD7;
+					};
+				};
+			};
+			buildConfigurationList = 3612A17C217082250017FFD7 /* Build configuration list for PBXProject "Probate Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3612A178217082250017FFD7;
+			productRefGroup = 3612A182217082250017FFD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3612A180217082250017FFD7 /* Probate Calculator */,
+				3612A194217082360017FFD7 /* Probate CalculatorTests */,
+				3612A19F217082360017FFD7 /* Probate CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3612A17F217082250017FFD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3612A18F217082360017FFD7 /* LaunchScreen.storyboard in Resources */,
+				3612A18C217082350017FFD7 /* Assets.xcassets in Resources */,
+				3612A18A217082250017FFD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3612A193217082360017FFD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3612A19E217082360017FFD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3612A17D217082250017FFD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3612A187217082250017FFD7 /* ViewController.swift in Sources */,
+				3612A185217082250017FFD7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3612A191217082360017FFD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3612A19A217082360017FFD7 /* Probate_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3612A19C217082360017FFD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3612A1A5217082360017FFD7 /* Probate_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3612A197217082360017FFD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3612A180217082250017FFD7 /* Probate Calculator */;
+			targetProxy = 3612A196217082360017FFD7 /* PBXContainerItemProxy */;
+		};
+		3612A1A2217082360017FFD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3612A180217082250017FFD7 /* Probate Calculator */;
+			targetProxy = 3612A1A1217082360017FFD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3612A188217082250017FFD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3612A189217082250017FFD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3612A18D217082360017FFD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3612A18E217082360017FFD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3612A1A7217082360017FFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3612A1A8217082360017FFD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3612A1AA217082360017FFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7A6RGTKWM;
+				INFOPLIST_FILE = "Probate Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.willielassiter.Probate-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3612A1AB217082360017FFD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7A6RGTKWM;
+				INFOPLIST_FILE = "Probate Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.willielassiter.Probate-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3612A1AD217082360017FFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7A6RGTKWM;
+				INFOPLIST_FILE = "Probate CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.willielassiter.Probate-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Probate Calculator.app/Probate Calculator";
+			};
+			name = Debug;
+		};
+		3612A1AE217082360017FFD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7A6RGTKWM;
+				INFOPLIST_FILE = "Probate CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.willielassiter.Probate-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Probate Calculator.app/Probate Calculator";
+			};
+			name = Release;
+		};
+		3612A1B0217082360017FFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7A6RGTKWM;
+				INFOPLIST_FILE = "Probate CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.willielassiter.Probate-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Probate Calculator";
+			};
+			name = Debug;
+		};
+		3612A1B1217082360017FFD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7A6RGTKWM;
+				INFOPLIST_FILE = "Probate CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.willielassiter.Probate-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Probate Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3612A17C217082250017FFD7 /* Build configuration list for PBXProject "Probate Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3612A1A7217082360017FFD7 /* Debug */,
+				3612A1A8217082360017FFD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3612A1A9217082360017FFD7 /* Build configuration list for PBXNativeTarget "Probate Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3612A1AA217082360017FFD7 /* Debug */,
+				3612A1AB217082360017FFD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3612A1AC217082360017FFD7 /* Build configuration list for PBXNativeTarget "Probate CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3612A1AD217082360017FFD7 /* Debug */,
+				3612A1AE217082360017FFD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3612A1AF217082360017FFD7 /* Build configuration list for PBXNativeTarget "Probate CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3612A1B0217082360017FFD7 /* Debug */,
+				3612A1B1217082360017FFD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3612A179217082250017FFD7 /* Project object */;
+}
